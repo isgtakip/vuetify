@@ -18,7 +18,7 @@
             <template v-slot:activator="{ on, attrs }">
               <v-btn
                 dark
-                icon
+                // icon if active icon not showing in nuxt
                 v-bind="attrs"
                 v-on="on"
               >
